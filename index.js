@@ -17,7 +17,7 @@ const sts = new STS({
 });
 
 express.json();
-app.use(cors());
+app.use(cors({ credentials: true }));
 
 app.get('/', async (req, res) => {
   try {
