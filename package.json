@@ -1,0 +1,19 @@
+{
+  "name": "sts-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ChatCat-Team/STS-Server.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ali-oss": "^6.10.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
