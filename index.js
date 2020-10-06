@@ -38,6 +38,7 @@ app.get('/', async (req, res) => {
           accessKeySecret: token.credentials.AccessKeySecret,
           stsToken: token.credentials.SecurityToken,
           bucket: 'lifeni-test',
+          secure: true,
         },
       });
     } else {
