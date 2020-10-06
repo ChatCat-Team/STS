@@ -33,7 +33,7 @@ app.get('/', async (req, res) => {
         code: 0,
         msg: '成功获得 STS Token',
         data: {
-          region: 'oss-cn-beijing.aliyuncs.com',
+          region: 'oss-cn-beijing',
           accessKeyId: token.credentials.AccessKeyId,
           accessKeySecret: token.credentials.AccessKeySecret,
           stsToken: token.credentials.SecurityToken,
